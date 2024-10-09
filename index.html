@@ -1,11 +1,522 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+  <style>
+    html {
+    visibility: hidden;
+    opacity: 0;
+}
+   </style>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Portfolio Sof</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Option 1: Include in HTML -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">  
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.0/css/glightbox.css" integrity="sha512-iQ3H4A+iyBTP8M4ypX5PrTt2S+G1zmRjf0k0uOASKlFHysV8TL9ZoQyVwPss0D12IBTMoDEHA8+bg8a1viS9Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.0/css/glightbox.min.css" integrity="sha512-T+KoG3fbDoSnlgEXFQqwcTC9AdkFIxhBlmoaFqYaIjq2ShhNwNao9AKaLUPMfwiBPL0ScxAtc+UYbHAgvd+sjQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+
 </head>
+
 <body>
-    
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="preloader full" style="z-index: 4000;"></div>
+    <div id="snackbar">Some text some message..</div>
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Djebbour Soufiane</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a target="_blank" href="https://x.com/djebbsoso" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a target="_blank" href="https://web.facebook.com/sofiane.ronaldo.961" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a target="_blank" href="https://www.instagram.com/sofiane_djebb/" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a target="_blank" href="https://www.linkedin.com/in/sofiane-djebbour-37aa2a141/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Djebbour Soufiane</h1>
+      <p>I'm <span class="typed" data-typed-items="Developer, Freelancer, WebDesigher"></span></p>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <p>I'm a junior frontend developer highly skilled building and maintaining custom storefront websites,
+            My expertise includes front-end development using HTML, CSS, JavaScript
+            My technical skills include:
+          <ul>
+            <li>Development of Responsive Websites (Showcase site, Real estate agency, E-commerce).</li>
+            <li>Familiarity with development tools like Git.</li>
+            <li>HTML Structure</li>
+            <li>CSS Styling</li>
+            <li>Jinja Templating</li>
+            <li>JavaScript Interactivity</li>
+            <li>Cross-Browser Compatibility</li>
+            <li>Performance Optimization</li>
+            <li>Debugging and Troubleshooting</li>
+            <li>Collaboration and Version Control</li>
+          </ul>
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Web Developer.</h3>
+            <p class="fst-italic">
+              I'm passionate about constantly evolving in the tech field, always seeking to learn and grow as a developer. Outside of work, I enjoy football and swimming, and as a true thalassophile, I have a deep connection with the sea. I thrive in collaborative environments, and my cooperative nature helps me work effectively within teams, contributing to shared goals with enthusiasm and dedication.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <a href="tel:+213549703005">(+213) 549703005</a></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Mostaganem, Algeria</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>djebbsoso@gmail.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Skills</h2>
+          <p>As a dedicated front-end developer, I specialize in crafting dynamic, responsive, and user-friendly web applications. With a strong foundation in HTML, CSS, and JavaScript, I excel at turning creative ideas into functional designs. My expertise extends to modern libraries and frameworks, ensuring seamless performance and smooth user experiences across all devices. I continually refine my skills to stay ahead of industry trends and deliver cutting-edge solutions.</p>
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6" data-aos="fade-up">
+
+            <div class="progress">
+              <span class="skill">HTML <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">CSS <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">JavaScript <i class="val">60%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Resume</h2>
+          <p>With a passion for front-end development, my resume reflects a journey of continuous growth and hands-on experience in creating efficient and user-centric web applications. It highlights my technical expertise, project involvement, and professional achievements, showcasing my ability to adapt and thrive in dynamic environments</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="resume-title">Sumary</h3>
+            <div class="resume-item pb-0">
+              <h4>Djebbour Soufiane</h4>
+              <p><em>As a key member of the storefront team, I focus on building custom e-commerce themes, resolving technical issues, and implementing innovative solutions to enhance the customer experience. My work combines creativity with technical precision, ensuring seamless performance and user satisfaction across all storefronts.</em></p>
+              <ul>
+                <li>KIOSTORE</li>
+                <li>Ferme si bouazza, n 10 Rte d'Oran, Mezghrane 27000</li>
+                <li>(+213) 550 27 99 69</li>
+                <li>https://kiostore.net/</li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>information systems engineering</h4>
+              <h5>2016 - 2018</h5>
+              <p><em>Faculty of Exact Sciences and Computer Science,Abdelhamid Ben Badis University</em></p>
+              <p>For my master's degree, I focused on 'Approach to Data Mining on Time Series,' analyzing robot execution failures. I worked specifically with LP1 failures in approach-to-grasp positions, standardizing the data and applying techniques like PAA and SAX for efficient time series representation. I also developed a custom Apriori algorithm from scratch to predict robot failures, resulting in a predictive model that identifies potential failure patterns.</p>
+            </div>
+            <div class="resume-item">
+              <h4>Certifications Cisco</h4>
+              <h5>2017 - 2018</h5>
+              <p><em>The National Institute specialized in vocational training Ben Saber Afif Mostaganem</em></p>
+              <p>I have studied Cisco's CCNA, gaining a solid foundation in networking concepts, protocols, and infrastructure, which complements my development skills and enhances my understanding of web technologies.</p>
+            </div>
+            <div class="resume-item">
+              <h4>Bachelor of information systems</h4>
+              <h5>2013 - 2016</h5>
+              <p><em>Faculty of Exact Sciences and Computer Science,Abdelhamid Ben Badis University</em></p>
+              <p>During my bachelor’s internship at an electricity production company, I contributed to building an application that modernized their workflow. I developed and implemented nearly 34 UML diagrams, which played a key role in documenting and structuring the system to improve efficiency.</p>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Web Development</h4>
+              <h5>2022 - Present</h5>
+              <p><em>KIOSTORE, Mostaganem </em></p>
+              <ul>
+                <li>Member of the storefront team, responsible for building custom e-commerce themes</li>
+                <li>Diagnose and fix bugs to ensure smooth and efficient storefront performance</li>
+                <li>Develop and implement innovative ideas to enhance customer experience and satisfaction</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Freelance</h4>
+              <ul>
+                <li>Cloned several global websites, including Google News, to replicate functionality and design</li>
+                <li>Designed and built personalized portfolios for clients, delivering tailored and professional solutions to showcase their work</li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+
+
+
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Hello, my name is Soufiane Djebbour, and I was born and raised in Mostaganem, Algeria. As a front-end
+            developer, I am passionate about creating user-friendly, dynamic, and visually appealing web experiences. On
+            this website, you'll find all the tools you need to get in touch with me, including my social media links
+            and contact details. Feel free to use the contact form below to send me a message. I promise to get back to
+            you as soon as possible. Looking forward to connecting with you!.</p>
+        </div>
+
+        <div class="row" data-aos="fade-in">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>Cite 400 logement kherrouba -mostaganem</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>djebbsoso@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <a href="tel:+213549703005">+213 5 49-70-30-05</a>
+              </div>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d508.5596029562248!2d0.09622429218314046!3d35.967709822452306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f5!3m3!1m2!1s0x12820328a3dd4ecb%3A0x26a1c23e6616b100!2sThe%20secret%20garden!5e0!3m2!1sfr!2sdz!4v1728310945990!5m2!1sfr!2sdz"
+                width="600" height="450" style="border:0; width: 100%; height: 290px;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form method="POST" role="form" id="contact-form" novalidate>
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Full Name</label>
+                  <input type="text" name="from_name" class="form-control" id="name"  onkeypress="return onlyLetters(event)" required>
+                  <small class="span-title">Don't leave this field empty!</small>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control" name="email_id" id="email" required>
+                  <small class="span-title">Don't leave this field empty!</small>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="subject">Subject</label>
+                  <input type="text" class="form-control" name="subject_id" id="subject"  onkeypress="return onlyLetters(event)" required>
+                  <small class="span-title">Don't leave this field empty!</small>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="phone">Number Phone</label>
+                  <input type="tel" class="form-control" name="phone_id" id="phone" onkeypress="if (isNaN(String.fromCharCode(event.keyCode))) return false;" maxlength="13" required>
+                  <small class="span-title">Don't leave this field empty!</small>
+                </div>
+              </div>
+            
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" name="message" id="message" rows="10" required></textarea>
+                <small class="span-title">Don't leave this field empty!</small>
+              </div>
+            
+              <div class="my-3">
+                <div class="error-message"></div>
+              </div>
+              <div class="text-center">
+                <button id="btn" type="submit">Send Message</button>
+              </div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.0/js/glightbox.min.js" integrity="sha512-RBWI5Qf647bcVhqbEnRoL4KuUT+Liz+oG5jtF+HP05Oa5088M9G0GxG0uoHR9cyq35VbjahcI+Hd1xwY8E1/Kg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.0/js/glightbox.js" integrity="sha512-56woqtdm6O1h0fmHF9270BX0qEurQLS72vkgnXiurzd6rbaHXP+nmuqEmV2Eu8B0cSs4B0nIaSwshfH1nS/JWA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.js" integrity="sha512-E/yP5UiPXb6VelX+dFLuUD+1IZw/Kz7tMncFTYbtoNSCdRZPFoGN3jZ2p27VUxHEkhbPiLuZhZpVEXxk9wAHCQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js" integrity="sha512-tQQXRDB2wEmuJGtFrmmoFYzNTq8StA1XJrfO0OQbbTxd9G0CwaTDL6/C1y805IlvBVrMwOqob1kf6r/2U5XXVg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js" integrity="sha512-hIlMpy2enepx9maXZF1gn0hsvPLerXoLHdb095CmRY5HG3bZfN7XPBZ14g+TUDH1aGgfLyPHmY9/zuU53smuMw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script>
+    (function () {
+      emailjs.init('MEV8hKARSQmjqjDDU');
+    })();
+  </script>
+  <script>
+    const toggleLoader = () => {
+      document.querySelector(".preloader").classList.contains("running")
+        ? document.querySelector(".preloader").classList.remove("running")
+        : document.querySelector(".preloader").classList.add("running");
+    };
+    function showSnackBar(msg) {
+      document.getElementById("snackbar").innerText = msg;
+      document.getElementById("snackbar").className = "show";
+      setTimeout(function () {
+        document.getElementById("snackbar").className = document
+          .getElementById("snackbar")
+          .className.replace("show", "");
+      }, 3000);
+    }
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+      toggleLoader();
+      event.preventDefault();
+      if (!checkInput()) {
+        toggleLoader();
+        return; // If validation fails, stop the process
+    }
+      emailjs.sendForm('service_t642nii', 'template_z5mynlq', this)
+        .then(function(response) {
+          console.log('Email sent!', response.status, response.text);
+          toggleLoader()
+          showSnackBar("Message Envoyé");
+          resetForm()
+        }, function(error) {
+          console.error('Error sending email:', error);
+          toggleLoader()
+        });
+    });
+  </script>
+
+<script>
+  function onlyLetters(event) {
+    const charCode = event.charCode || event.keyCode || event.which;
+    const charStr = String.fromCharCode(charCode);
+
+    // Check if the character is not a letter
+    if (!/^[A-Za-z]+$/.test(charStr)) {
+      event.preventDefault();
+      return false;
+    }
+
+    return true;
+  }
+
+  let username = document.getElementById("name");
+  let phone = document.getElementById("phone");
+  let email = document.getElementById("email");
+  let subject = document.getElementById("subject");
+  let message = document.getElementById("message");
+
+  // document.getElementById('btn').addEventListener('click', function (event) {
+  //   event.preventDefault(); // Prevent form submission for testing
+  //   checkInput();
+  // });
+
+function checkInput() {
+  let isValid = true;
+
+  // Validate each input field
+  if (username.value.trim() === '') {
+    setError(username, "Don't leave this field empty!");
+    isValid = false;
+  } else {
+    clearError(username);
+  }
+
+  if (email.value.trim() === '') {
+    setError(email, "Don't leave this field empty!");
+    isValid = false;
+  } else if (!isEmail(email.value.trim())) {
+    setError(email, "Please enter a valid email!");
+    isValid = false;
+  } else {
+    clearError(email);
+  }
+
+  if (phone.value.trim() === '') {
+    setError(phone, "Don't leave this field empty!");
+    isValid = false;
+  } else {
+    clearError(phone);
+  }
+
+  if (subject.value.trim() === '') {
+    setError(subject, "Don't leave this field empty!");
+    isValid = false;
+  } else {
+    clearError(subject);
+  }
+
+  if (message.value.trim() === '') {
+    setError(message, "Don't leave this field empty!");
+    isValid = false;
+  } else {
+    clearError(message);
+  }
+
+  return isValid;
+}
+
+function setError(input, msg) {
+  const formControl = input.parentElement;
+  const small = formControl.querySelector("small");
+  
+  if (small) {  // Check if small exists
+    small.innerText = msg;
+    formControl.classList.add("error");
+  } else {
+    console.error("Error: Small element not found for input:", input);
+  }
+}
+
+
+function clearError(input) {
+  const formControl = input.parentElement;
+  const small = formControl.querySelector("small");
+  
+  if (small) {  // Check if small exists
+    small.innerText = "";
+    formControl.classList.remove("error");
+  }
+}
+
+
+function isEmail(email) {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+}
+function resetForm() {
+  document.querySelectorAll('#contact-form input, #contact-form textarea').forEach(function (element) {
+    element.value = '';
+  });
+}
+  </script>
 </body>
+
 </html>

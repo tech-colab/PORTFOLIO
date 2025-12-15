@@ -71,6 +71,7 @@
         <ul>
           <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
           <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Skills</span></a></li>
           <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
           <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i>
               <span>Portfolio</span></a></li>
@@ -153,38 +154,67 @@
             trends and deliver cutting-edge solutions.</p>
         </div>
 
-        <div class="row skills-content">
+        <div class="row skills-content container py-5" id="skills">
+          <h2 class="text-center mb-4">My Skills</h2>
 
-          <div class="col-lg-6" data-aos="fade-up">
-
-            <div class="progress">
-              <span class="skill">HTML <i class="val">100%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
+          <div class="row">
+            <div class="col-md-6 mb-4">
+              <h5 class="text-primary">🧠 Front-End Development</h5>
+              <ul class="list-unstyled">
+                <li>HTML5, CSS3</li>
+                <li>JavaScript (Vanilla JS)</li>
+                <li>React.js</li>
+                <li>Chakra UI, Tailwind CSS</li>
+                <li>Responsive Design & Cross-browser Compatibility</li>
+                <li>Form Validation (phone input, reCAPTCHA, etc.)</li>
+                <li>DOM Manipulation and Event Handling</li>
+                <li>API Integration (e.g. game data APIs)</li>
+                <li>LocalStorage & SessionStorage handling</li>
+                <li>Custom Hooks & React Router (query params, dynamic routing)</li>
+              </ul>
             </div>
 
-            <div class="progress">
-              <span class="skill">CSS <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
+            <div class="col-md-6 mb-4">
+              <h5 class="text-primary">🧪 Tools & Libraries</h5>
+              <ul class="list-unstyled">
+                <li>intl-tel-input</li>
+                <li>Slick Slider</li>
+                <li>Postman (HTTP requests testing)</li>
+                <li>Toast notification systems</li>
+                <li>Google Translate integration</li>
+                <li>reCAPTCHA v3</li>
+              </ul>
             </div>
 
-            <div class="progress">
-              <span class="skill">JavaScript <i class="val">60%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
+            <div class="col-md-6 mb-4">
+              <h5 class="text-primary">⚙️ Backend & DevOps Basics</h5>
+              <ul class="list-unstyled">
+                <li>Flask (basic integration)</li>
+                <li>Docker basics (containers, images, commands)</li>
+                <li>Git & GitHub</li>
+              </ul>
             </div>
 
+            <div class="col-md-6 mb-4">
+              <h5 class="text-primary">💻 Software & Platforms</h5>
+              <ul class="list-unstyled">
+                <li>VS Code</li>
+                <li>Linux/Ubuntu commands (e.g. apt, autoremove)</li>
+                <li>Browser DevTools</li>
+                <li>Debugging (network tab, console logs)</li>
+              </ul>
+            </div>
+
+            <div class="col-12">
+              <h5 class="text-primary">🧑‍💼 Personal & Soft Skills</h5>
+              <ul class="list-unstyled">
+                <li>Fast learner and self-developer</li>
+                <li>Cooperative and team-oriented</li>
+                <li>Passionate about tech and continuous improvement</li>
+                <li>Fluent in Arabic, French, and English</li>
+              </ul>
+            </div>
           </div>
-
-
-
         </div>
 
       </div>
@@ -329,7 +359,30 @@
         </div>
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/web/Mirabelle Style Clone - graceful-queijadas-e436d2.netlify.app.png"
+                class="img-fluid" alt="">
+            </div>
+            <div class="portfolio-links">
+              <a href="assets/img/web/Mirabelle Style Clone - graceful-queijadas-e436d2.netlify.app.png"
+                data-gallery="portfolioGallery" class="portfolio-lightbox" title="mirabel-clone web"><i
+                  class="bx bx-plus"></i></a>
+              <a href="https://mirabel-clone.netlify.app/" target="_blank" title="More Details"><i
+                  class="bx bx-link"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/web/GameHub.png" class="img-fluid" alt="">
+            </div>
+            <div class="portfolio-links">
+              <a href="assets/img/web/GameHub.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                title="GameHub"><i class="bx bx-plus"></i></a>
+              <a href="https://gamehub-sofiane.netlify.app/" target="_blank" title="More Details"><i
+                  class="bx bx-link"></i></a>
+            </div>
+          </div>
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
               <img src="assets/img/web/enigmatize.png" class="img-fluid" alt="">
@@ -381,18 +434,7 @@
               <!-- <a href="https://mononeo.mykio.shop/" title="More Details"><i class="bx bx-link"></i></a> -->
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/web/Mirabelle Style Clone - graceful-queijadas-e436d2.netlify.app.png"
-                class="img-fluid" alt="">
-            </div>
-            <div class="portfolio-links">
-              <a href="assets/img/web/Mirabelle Style Clone - graceful-queijadas-e436d2.netlify.app.png"
-                data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="https://graceful-queijadas-e436d2.netlify.app/" target="_blank" title="More Details"><i
-                  class="bx bx-link"></i></a>
-            </div>
-          </div>
+
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
               <img src="assets/img/app/weatherAppScreenShot.png" class="img-fluid" alt="">
